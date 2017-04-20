@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>exo vu</title>
+</head>
+<body>
+	<div id="app">
+		{{ message }}
+		{{hendek}}
+		<h1>{{hendek}}</h1>
+		<p v-bind:michmich="hendek">Les hendek arrivent !!</p>
+		
+		<ul>
+			<li v-for="name in items">{{name}}</li>
+
+		</ul>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.js"></script>
+	<script src='js/app.js'></script>	
+</body>
+</html>
